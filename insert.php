@@ -15,6 +15,7 @@ foreach($genreIds as $genreId)
 {
 	addGenreForFilm($filmId,$genreId);	
 }
+
 $pageTitle="Insert new film";
 include("views/insert-view.php");
 ?>
